@@ -33,4 +33,9 @@ class UrlsController < ApplicationController
       params.require(:url).permit(:long_url)
   end
 
+  def short
+    url = Url.find(params[:id])
+    redirect_to url.long_url
+  end
+
 end
