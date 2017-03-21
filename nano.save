@@ -1,0 +1,5 @@
+i 
+1. routes.rb has defined a new route called “short”
+2. In urls_controller.rb defined Short
+3. In urls/index.html.erb replaced <href> with <% link_to %>
+
